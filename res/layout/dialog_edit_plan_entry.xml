@@ -1,0 +1,122 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+
+    <TableRow
+        android:id="@+id/editPlanTableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/tvEditPlanLessonNoLabel"
+            android:gravity="left"
+            android:text="@string/label_lesson_no" />
+
+        <TextView
+            android:id="@+id/tvEditPlanLessonNo"
+            android:textAppearance="?android:attr/textAppearanceSmall" 
+            />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/editPlanTableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/tvEditPlanSubjectLabel"
+            android:gravity="left"
+            android:text="@string/label_subject_name" />
+    
+        <Spinner
+            android:id="@+id/spEditPlanSubjectList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            />
+        
+         <ImageButton
+        android:id="@+id/ibEditPlanAddSubject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:src="@drawable/icon_add1_32" />
+         
+                               
+        
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/editPlanTableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/tvEditPlanClassroomLabel"
+            android:gravity="left"
+            android:text="@string/label_classroom_name" />
+
+        <EditText
+            android:id="@+id/etEditPlanClassName"
+            android:hint=""
+            android:inputType="text"
+            android:layout_width="150dip"
+            />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/editPlanTableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/tvEditPlanTeacherLabel"
+            android:gravity="left"
+            android:text="@string/label_teacher_name" />
+
+        <Spinner
+            android:id="@+id/spEditPlanTeacherList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        
+        <ImageButton
+        android:id="@+id/ibEditPlanAddTeacher"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:src="@drawable/icon_add1_32" />
+                
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/editPlanTableRow5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/btnEditPlan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_save" />
+
+        <Button
+            android:id="@+id/btnEditPlanCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_cancel" />
+    </TableRow>
+
+</TableLayout>

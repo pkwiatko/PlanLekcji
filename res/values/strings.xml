@@ -1,0 +1,51 @@
+<resources>
+
+    <string name="app_name">Plan Lekcji</string>
+    <string name="app_title_bar">P.L.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Ustawienia</string>
+    <string name="title_activity_main">Plan Lekcji</string>
+    <string name="menu_add_plan">Dodaj Plan</string>
+    <string name="menu_delete_plan">Usu\u0144 Plan</string>
+    <string name="label_student_name">Ucze\u0144</string>
+    <string name="label_classroom_name">Sala</string>
+    <string name="label_class_name">Klasa</string>
+    <string name="label_lesson_no">Nr lekcji</string>
+    <string name="label_subject_name">Przedmiot</string>
+    <string name="label_teacher_name">Nauczyciel</string>
+    <string name="label_add_teacher">Dodaj Nauczyciela</string>
+    <string name="label_add_subject">Dodaj Przedmiot</string>
+    <string name="button_save">Zapisz</string>
+    <string name="button_cancel">Anuluj</string>
+    <string name="button_confirm_delete">Usu\u0144</string>
+    <string name="edit_lesson_activity">Edycja planu</string>
+    <string name="label_class_short">kl.</string>
+
+    <string-array name="weekdays_short_array">
+        <item>Pon</item>
+        <item>Wt</item>
+        <item>\u015Ar</item>
+        <item>Czw</item>
+        <item>Pi</item>
+    </string-array>
+
+    <string name="title_activity_add_plan">Dodaj Plan</string>
+    <string name="title_activity_delete_plan">Usu\u0144 Plan</string>
+    <string name="title_activity_preference">Ustawienia</string>
+    <string name="title_preference_view">Wygl\u0105d</string>
+    <string name="title_preference_theme">Scena</string>
+    <string name="summary_preference_theme">Ustawienia sceny</string>
+    <string name="dialog_preference_theme">Wybierz scen\u0119</string>
+	
+    <string-array name="entries_list_theme_preference">
+        <item>Default</item>
+        <item>Light</item>
+        <item>Light (Dark Action Bar)</item>
+    </string-array>
+    <string-array name="entryvalues_list_theme_preference">
+        <item>default</item>
+        <item>light</item>
+        <item>light_dark</item>
+    </string-array>
+
+</resources>

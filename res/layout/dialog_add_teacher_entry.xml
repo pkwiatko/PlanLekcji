@@ -1,0 +1,52 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+
+    
+
+    
+    <TableRow
+        android:id="@+id/addTeacherTableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/tvAddTeacherLabel"
+            android:gravity="left"
+            android:text="@string/label_teacher_name" />
+
+        <EditText
+            android:id="@+id/etAddTeacherName"
+            android:hint=""
+            android:inputType="text"
+            android:layout_width="150dip"
+            />
+    </TableRow>
+
+    
+    <TableRow
+        android:id="@+id/addTeacherTableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/btnAddTeacher"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_save" />
+
+        <Button
+            android:id="@+id/btnAddTeacherCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_cancel" />
+    </TableRow>
+
+</TableLayout>
